@@ -271,3 +271,186 @@ Analytics is the backbone of modern decision-making. It uses descriptive, predic
     •	Campbell, J. (1949). *The Hero with a Thousand Faces*. Princeton University Press.
     
     •	NASA Climate Change. (2020). Global temperature anomalies. Retrieved from nasa.gov.
+
+---
+
+# Week 2
+
+**Introduction to Data Analytics and Visualization: Lecture Overview**
+
+File(s) for this lecture:
+[zoo spreadsheet](/xls/zoo.xlsx)
+
+**Introduction**
+
+In this lecture, we explored foundational concepts in data analytics, spreadsheet tools, and the importance of data visualization. Emphasis was placed on practical applications, decision-making insights, and understanding the relationships between data points.
+
+**1. Understanding Analytics**
+
+**Definition**
+
+Analytics is defined as the scientific process of transforming data into insights for better decision-making.
+
+**Three Types of Analytics**
+
+​	1.	**Descriptive Analytics**:
+
+​		•	Describes what happened in the data.
+
+​		•	Example: Identifying trends in zoo attendance across months.
+
+​	2.	**Predictive Analytics**:
+
+​		•	Uses historical data to predict future trends.
+
+​		•	Example: Forecasting next year’s zoo attendance based on current patterns.
+
+​	3.	**Prescriptive Analytics**:
+
+​		•	Recommends actions based on descriptive and predictive insights.
+
+​		•	Example: Adjusting ticket prices during peak zoo months to maximize revenue.
+
+
+
+Prescriptive analytics is particularly nuanced as it requires clear goal definition and may involve subjective decisions based on different perspectives or values.
+
+**2. Types of Data**
+
+**Quantitative Data**
+
+​	•	Represents measurable values (e.g., weight, temperature).
+
+​	•	Mathematical operations like addition and multiplication are applicable.
+
+
+
+**Categorical Data**
+
+​	•	Represents categories or groups (e.g., types of expenses like “food” or “bills”).
+
+​	•	Arithmetic operations do not apply directly.
+
+**Key Differentiator: Ask, “Can I perform mathematical operations on this data?”**
+
+**3. Cross-Sectional vs. Time Series Data**
+
+**Cross-Sectional Data**
+
+​	•	Collected from several entities at the same point in time.
+
+​	•	Example: Share prices of companies on a specific date.
+
+**Time Series Data**
+
+​	•	Collected from one or multiple entities over time.
+
+​	•	Example: Monthly sales trends for a product over a year.
+
+A series of cross-sectional data points over time can also be visualized as time series data.
+
+**4. Big Data**
+
+**Characteristics of Big Data (4Vs)**
+
+​	1.	**Volume**: Amount of data.
+
+​	2.	**Velocity**: Speed of data generation.
+
+​	3.	**Variety**: Types of data collected.
+
+​	4.	**Veracity**: Reliability and accuracy of the data.
+
+Big data often requires advanced computational tools and techniques for processing and analysis.
+
+**5. Data Visualization**
+
+**Purpose**
+
+Data visualization helps explore, explain, and guide decision-making by representing data in visual formats.
+
+**Types of Visualization Goals**
+
+​	1.	**Composition**:
+
+​		•	Displays the parts that make up a whole.
+
+​		•	Example: Monthly zoo attendance as part of total annual attendance.
+
+​	2.	**Ranking**:
+
+​		•	Shows the relative importance or order of items.
+
+​		•	Example: Ranking factors that job seekers consider important (e.g., salary, company culture).
+
+​	3.	**Correlation**:
+
+​		•	Demonstrates relationships between two variables.
+
+​		•	Example: Scatter plots showing the relationship between temperature and snowfall.
+
+**6. Spreadsheet Basics**
+
+**Key Concepts**
+
+​	•	**Cells**: Individual units in a spreadsheet identified by their column and row (e.g., A1).
+
+​	•	**Formulas**: Operations programmed into cells to automate calculations and updates.
+
+
+
+**Applications**
+
+​	•	Spreadsheets can:
+
+​	•	Automate repetitive tasks.
+
+​	•	Visualize time series data.
+
+​	•	Serve as tools for financial forecasting, game design, or engineering analysis.
+
+**7. Selecting the Right Chart**
+
+**Chart Selection Criteria**
+
+​	•	**Goal of Visualization**:
+
+​	•	Are you explaining, exploring, or persuading?
+
+​	•	**Type of Data**:
+
+​	•	Quantitative or categorical.
+
+​	•	Cross-sectional or time series.
+
+**Examples**
+
+​	1.	**Time Series Data**: Line or scatter plots.
+
+​	2.	**Composition**: Stacked bar charts or pie charts.
+
+​	3.	**Ranking**: Sorted bar charts.
+
+​	4.	**Correlation**: Scatter plots with trend lines.
+
+**8. Applications Across Fields**
+
+​	1.	**Business**:
+
+​		•	Procter & Gamble’s “Business Sphere” rooms use advanced visualizations for decision-making.
+
+​	2.	**Finance**:
+
+​		•	Stock price charts to analyze trends and volatility.
+
+​	3.	**Engineering**:
+
+​		•	Control charts for quality assurance in production.
+
+​	4.	**Sports**:
+
+​		•	Shot charts in basketball to evaluate player performance.
+
+**Conclusion**
+
+Data analytics and visualization are critical tools across disciplines, enabling better decision-making and storytelling. Spreadsheets, with their flexibility and computational power, remain a vital tool for analyzing and visualizing data. Selecting the appropriate chart or method depends on the nature of the data and the goal of the analysis.
