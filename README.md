@@ -454,3 +454,181 @@ Data visualization helps explore, explain, and guide decision-making by represen
 **Conclusion**
 
 Data analytics and visualization are critical tools across disciplines, enabling better decision-making and storytelling. Spreadsheets, with their flexibility and computational power, remain a vital tool for analyzing and visualizing data. Selecting the appropriate chart or method depends on the nature of the data and the goal of the analysis.
+
+---
+
+# Week 3
+
+**Introduction**
+
+Data visualization is more than just making charts and graphs—it’s about **designing visual representations of data that effectively communicate insights**. A good visualization is not only accurate but also intuitive, leveraging **human perception** to highlight key patterns and trends.
+
+This chapter explores fundamental design principles, including **pre-attentive attributes, Gestalt principles, and cognitive load**. We will also discuss **common visualization mistakes** and how to avoid them.
+
+**3.1 The Importance of Perception in Visualization**
+
+When designing a visualization, **understanding human perception is crucial**. The way people interpret visual information affects how they understand the data.
+
+
+
+**3.1.1 The Role of Memory in Visualization**
+
+Visual processing relies on three types of memory:
+
+​	•	**Iconic Memory:** The most **immediate form of memory**, lasting less than a second. It allows for quick pattern recognition.
+
+​	•	**Short-term Memory:** Stores information for about **a minute**. Most people can only hold about **4 chunks of visual information** at a time.
+
+​	•	**Long-term Memory:** Stores information over extended periods, typically through **repetition, association, or storytelling**.
+
+Effective visualizations rely primarily on **iconic and short-term memory**, ensuring that the audience can process the information **instantly and without cognitive overload**.
+
+**3.2 Pre-Attentive Attributes**
+
+Pre-attentive attributes are **visual features** that our brains process **automatically, without conscious effort**. They allow viewers to grasp patterns in a visualization **at a glance**.
+
+**3.2.1 Key Pre-Attentive Attributes**
+
+| **Attribute**           | **Description**                                              | **Example Use in Visualization**                             |
+| ----------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| **Color**               | Differences in hue, saturation, and luminance help distinguish elements. | Highlighting key data points (e.g., red dot in a trend graph). |
+| **Size**                | Larger elements attract attention more quickly.              | Bigger bars in a bar chart indicate higher values.           |
+| **Shape**               | Different shapes can be used to categorize data.             | Squares for Category A, circles for Category B.              |
+| **Length**              | Longer bars or lines naturally indicate greater magnitude.   | Bar charts rely on length for comparison.                    |
+| **Width**               | Less commonly used; varies across visualizations.            | Width in a Sankey diagram represents flow volume.            |
+| **Orientation**         | Angle or rotation can convey meaning.                        | Sloped lines in a trend graph indicate change over time.     |
+| **Spatial Positioning** | The relative location of elements on a chart affects interpretation. | Scatter plots show relationships between variables.          |
+| **Motion**              | Movement captures attention but is only useful in digital media. | Animated visualizations showing real-time data.              |
+
+**3.2.2 The Power of Pre-Attentive Processing**
+
+Consider the following example:
+
+​	•	If asked to find all instances of the number **7** in a list of random digits, it takes time to **scan row by row**.
+
+​	•	If the **7s are highlighted in red**, the task becomes almost **instantaneous**.
+
+​	•	Similarly, if the **7s are larger in size**, they immediately stand out.
+
+This demonstrates how **color and size** help **reduce cognitive load** and make data easier to process.
+
+**3.3 The Gestalt Principles**
+
+The **Gestalt principles** describe how humans naturally **group and interpret visual elements**. These principles **guide how we structure and design data visualizations**.
+
+**3.3.1 Key Gestalt Principles in Data Visualization**
+
+​	1.	**Similarity**
+
+​		•	Objects with **similar colors, shapes, or sizes** are perceived as part of the same group.
+
+​		•	Example: In a scatter plot, using different colors for different categories makes grouping more intuitive.
+
+​	2.	**Proximity**
+
+​		•	Objects that are **physically close together** are perceived as related.
+
+​		•	Example: Clustering in a scatter plot suggests **subgroups** within the data.
+
+​	3.	**Enclosure**
+
+​		•	Elements enclosed within a boundary are seen as **belonging together**.
+
+​		•	Example: Drawing a **dashed box** around related points in a scatter plot reinforces groupings.
+
+​	4.	**Connection**
+
+​		•	Elements that are **physically connected** (e.g., lines between points) are seen as related.
+
+​		•	Example: Line graphs create connections between **data points over time**, making trends visible.
+
+**3.3.2 Using Gestalt Principles Effectively**
+
+​	•	**Combine multiple principles** (e.g., shape + color + proximity) for **clearer visual groupings**.
+
+​	•	**Avoid excessive complexity**, which can **increase cognitive load**.
+
+​	•	**Use connections wisely**—adding too many can make the visualization **cluttered** rather than helpful.
+
+**3.4 The Data-Ink Ratio**
+
+Proposed by Edward Tufte, the **data-ink ratio** principle states:
+
+​	“A good visualization should maximize the proportion of ink used to represent actual data, minimizing non-essential elements.”
+
+**3.4.1 High vs. Low Data-Ink Ratio**
+
+| **Type**                | **Characteristics**                           | **Example**                                       |
+| ----------------------- | --------------------------------------------- | ------------------------------------------------- |
+| **Low Data-Ink Ratio**  | Excessive gridlines, decorations, and colors. | Cluttered pie charts, overly colorful bar graphs. |
+| **High Data-Ink Ratio** | Simple, clean design that focuses on data.    | Minimalist bar charts, well-labeled line graphs.  |
+
+**3.4.2 Striking a Balance**
+
+​	•	**Avoid unnecessary visual elements (e.g., background colors, thick borders).**
+
+​	•	**Use white space effectively to improve readability.**
+
+​	•	**Limit the number of colors to avoid distractions.**
+
+For example, a **bar chart with subtle gridlines and a clean background** has a better data-ink ratio than a **pie chart filled with excessive labels and colors**.
+
+
+
+**3.5 Common Mistakes in Data Visualization**
+
+Even well-intentioned visualizations can **fail to communicate effectively**. Here are common mistakes to avoid:
+
+​	1.	**Excessive Use of Colors**
+
+​		•	Too many colors create **cognitive overload**.
+
+​		•	Use **only 3-5 distinct colors** in a single visualization.
+
+​	2.	**Overloaded Pie Charts**
+
+​		•	Humans **struggle to compare angles accurately**.
+
+​		•	**Bar charts** are usually a better choice.
+
+​	3.	**Misleading Scale Manipulations**
+
+​		•	**Truncated Y-axes** can **exaggerate small differences**.
+
+​		•	**Irregular intervals** distort trends.
+
+​	4.	**Too Much Non-Data Ink**
+
+​		•	Heavy gridlines, 3D effects, and unnecessary labels distract from the **actual data**.
+
+​	5.	**Poor Use of Legends**
+
+​		•	**Inline labeling** is better than requiring users to **match colors to a separate legend**.
+
+**3.5.1 Case Study: McDonald’s vs. Afghanistan’s GDP**
+
+A misleading chart compared **McDonald’s revenue** to **Afghanistan’s GDP**, using:
+
+​	•	**Logos instead of bars**, which made comparisons difficult.
+
+​	•	**Excessive colors and unnecessary details**.
+
+​	•	**Lack of clear scale**, making interpretation ambiguous.
+
+A simpler **bar chart** provided the same information in a **clear, effective way**.
+
+**3.6 Conclusion**
+
+A well-designed visualization follows **the principles of perception and cognition**. By leveraging **pre-attentive attributes**, **Gestalt principles**, and an **optimal data-ink ratio**, we can create **engaging and intuitive visual representations** of data.
+
+**Key Takeaways**
+
+✔ **Use color, size, and position to guide attention.**
+
+✔ **Apply Gestalt principles for clear groupings.**
+
+✔ **Minimize distractions by maximizing the data-ink ratio.**
+
+✔ **Avoid misleading visuals that distort or confuse the message.**
+
+By following these guidelines, we ensure that our visualizations are **not just beautiful—but also meaningful.**
