@@ -770,3 +770,117 @@ Analyzing transaction data using frequency distributions can reveal whether the 
 ---
 
 End of Chapter 5.
+
+---
+
+# CSC402 - Final Lecture: Data Analysis and Storytelling
+
+## Overview
+Welcome back! Today marks the final lecture in our **Data Analysis and Storytelling** series. We will explore high-level concepts from **Chapter 6** and **Chapter 7**, focusing on wrapping up the course with discussions on **Exploratory Data Analysis (EDA)**, **Data Visualization**, and **Storytelling with Data**. Today's lecture is less technical and more conceptual, emphasizing how to effectively communicate data-driven insights.
+
+---
+
+## Chapter 6: Exploratory Data Analysis (EDA)
+
+### What is EDA?
+EDA is a critical first step in data science, blending **art and science** to explore datasets and uncover patterns without preconceived assumptions. Think of it as venturing into a cave—you don’t know what you’ll find, but you map out what you discover.
+
+**Key Elements:**
+- **Descriptive Statistics:** Measures like mean, median, mode, and standard deviation to describe data characteristics.
+- **Visualization:** Tools like histograms, box plots, and scatter plots help reveal data trends and outliers.
+- **No Assumptions:** EDA is purely exploratory; you're observing, not concluding.
+
+### The AWESOME Acronym in Data Science:
+1. **A** - Obtain data
+2. **S** - Scrub (clean) data
+3. **E** - Explore data (EDA stage)
+4. **M** - Model data
+5. **E** - Evaluate model
+
+### Data Cleaning (Scrubbing)
+Raw data often contains:
+- Missing values
+- Inconsistent labels
+- Redundant columns
+
+**Example:** Downloading bank statements for spending analysis might require removing headers, transaction IDs, and converting formats. Tools like Excel, Python, and **ChatGPT** are invaluable for cleaning data efficiently.
+
+---
+
+## Chapter 7: Data Visualization and Storytelling
+
+### The Importance of Visualization
+Humans struggle to spot patterns in raw data. Visualizations bridge this gap, turning numbers into accessible narratives.
+
+**Common Visualization Types:**
+- **Bar Charts:** Great for comparing categories.
+- **Pie Charts:** Show parts of a whole (use sparingly).
+- **Heatmaps:** Represent data density or value intensity.
+- **Box and Whisker Plots:** Reveal data spread and outliers.
+
+### Understanding Your Audience
+**Tailor your visualizations:**
+- **High-Level Executives:** Prefer simple, clear visuals like bar charts or pie charts.
+- **Data Analysts:** Appreciate complex visuals like box plots or violin charts.
+- **General Audience:** Use straightforward visuals with minimal technical jargon.
+
+### Empathy Through Data
+Numbers represent people. Adding human elements to data visualizations creates emotional connections.
+
+**Example:** Instead of just showing the percentage of shelter dogs adopted, include a photo of "Max," a shelter dog still waiting for adoption.
+
+---
+
+## Storytelling with Data
+
+### Why Storytelling Matters
+Data is powerful, but storytelling makes it **persuasive**. Use narrative structures like **Freytag's Pyramid**:
+1. **Introduction:** Set the stage.
+2. **Rising Action:** Present the problem.
+3. **Climax:** Reveal key insights.
+4. **Falling Action:** Discuss potential solutions.
+5. **Conclusion:** Provide actionable recommendations.
+
+### Real-World Example: Hawaiian Bell Case Study
+- **Problem:** Customer service scores related to internet outages were below industry benchmarks.
+- **Action:** Data scientists analyzed customer call logs and found long wait times and unaddressed neighborhood outages.
+- **Solution:** Presenting a fictional customer’s frustrating experience helped executives empathize and understand the urgency of improving response times.
+
+---
+
+## Practical Demonstrations
+During class, we:
+- Obtained and cleaned COVID-19 death data by state.
+- Calculated **deaths per capita** to fairly compare states.
+- Visualized the data using **heatmaps** and **bar charts**.
+- Discussed how audience needs affect visualization choices.
+
+### Tools Explored:
+- **ChatGPT:** For data cleaning and quick insights.
+- **Google Colab:** To execute Python scripts and generate visuals.
+- **Pandas (Python Library):** Used to manipulate and analyze datasets.
+
+---
+
+## Final Thoughts & Key Takeaways
+- **EDA** is the foundation for understanding data.
+- **Clean data** leads to clearer insights.
+- **Visualizations** should match audience needs.
+- **Storytelling** transforms data into impactful narratives.
+- Always remember: Data represents real-world elements and people.
+
+Thank you for your engagement this semester! I hope you walk away with a stronger understanding of how to not just analyze data, but also how to **tell compelling stories with it**.
+
+Good luck with your future endeavors. I hope to see you in future courses, or even over the summer!
+
+---
+
+## Optional Exercises
+1. Download a dataset of your choice and perform a basic EDA.
+2. Create two visualizations for different audiences: one for executives and one for data scientists.
+3. Write a short narrative using your data visualizations to tell a compelling story.
+4. Reflect on how different visualizations can lead to different interpretations.
+
+---
+
+*Thank you for an amazing semester!*
